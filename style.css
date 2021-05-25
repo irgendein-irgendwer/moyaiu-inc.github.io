@@ -8,6 +8,28 @@ h1, h2, h4, a {
     font-family: "Jost", sans-serif;
     font-weight: 600;
     color: #4e5d94;
+	
+html, body {
+	margin: 20px;
+	padding: 0;
+	text-align: left;
+	background-color: #36393f;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+
+h1,
+h2,
+h4,
+a {
+	font-family: "Jost", sans-serif;
+	font-weight: 600;
+	color: #5769a8;
+}
 
 p {
 	font-family: "Lato", sans-serif;
@@ -62,6 +84,8 @@ header nav {
     margin: 10px 50px 0 0;
 
 
+#logo img {
+	width: 100%;
 }
 
 header nav ul li {
