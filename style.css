@@ -47,7 +47,7 @@ header {
 
 #logo {
 
-    width: 140px;
+    width: 50px;
     float: left;
     margin: 5px 0 0 25px;
 
@@ -55,6 +55,6 @@ header {
 
 #logo img{
 
-    width: 39%;
+    width: 100%;
 
 }
