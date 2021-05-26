@@ -1,14 +1,3 @@
-html, body {margin: 20px; padding: 0; text-align: left; background-color: #36393f;}
-a {text-decoration: none;}
-li {list-style-type: none;}
-#logo {transition: all 300ms;}
-
-h1, h2, h4, a {
-
-    font-family: "Jost", sans-serif;
-    font-weight: 600;
-    color: #4e5d94;
-	
 html, body {
 	margin: 20px;
 	padding: 0;
@@ -21,14 +10,14 @@ a {
 li {
 	list-style-type: none;
 }
+#logo {
+	transition: all 300ms;
+}
 
-h1,
-h2,
-h4,
-a {
+h1, h2, h4 ,a {
 	font-family: "Jost", sans-serif;
 	font-weight: 600;
-	color: #5769a8;
+	color: #4e5d94;
 }
 
 p {
@@ -41,7 +30,7 @@ hr {
 	margin: 0px;
 	height: 2px;
 	width: 1375px;
-	background: #42454A;
+	background: #42454a;
 	border: 0;
 	margin: 0;
 }
@@ -70,30 +59,34 @@ header {
 }
 
 #logo:hover {
-    opacity: 0.5;
+	opacity: 0.5;
 }
-
-#logo img{
-    margin-top: 2px;
-    width: 100%;
-}
-
-header nav {
-
-    float: right;
-    margin: 10px 50px 0 0;
-
 
 #logo img {
+	margin-top: 2px;
 	width: 100%;
 }
 
+header nav {
+	float: right;
+	margin: 10px 50px 0 0;
+}
+
+header nav ul li:hover {
+	opacity: 0.5;
+}
+
 header nav ul li {
-    float: left;
-    margin-right: 16px;
+	transition: all 300ms;
+	float: left;
+	margin-right: 16px;
 }
 
 header h1 {
-    margin-left: 80px;
-    margin-top: 9px;
+	margin-left: 80px;
+	margin-top: 9px;
+}
+
+#copyright {
+	text-align: center;
 }
