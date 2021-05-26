@@ -1,15 +1,7 @@
-html, body {
-	margin: 20px;
-	padding: 0;
-	text-align: left;
-	background-color: #36393f;
-}
-a {
-	text-decoration: none;
-}
-li {
-	list-style-type: none;
-}
+html, body {margin: 20px; padding: 0; text-align: left; background-color: #36393f;}
+a {text-decoration: none;}
+li {list-style-type: none;}
+
 #logo {
 	transition: all 300ms;
 }
@@ -29,8 +21,8 @@ p {
 hr {
 	margin: 0px;
 	height: 2px;
-	width: 1375px;
-	background: #42454a;
+	width: 175px;
+	background: #fff;
 	border: 0;
 	margin: 0;
 }
@@ -83,10 +75,27 @@ header nav ul li {
 }
 
 header h1 {
-	margin-left: 80px;
+	margin-left: 85px;
 	margin-top: 9px;
 }
 
 #copyright {
 	text-align: center;
+}
+
+#moyaiu_title {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 150px;
+	text-align: center;
+}
+
+#moyaiu_subtitle {
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.website_title {
+	font-size: 25px;
 }
